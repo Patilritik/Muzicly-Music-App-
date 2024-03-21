@@ -1,11 +1,8 @@
 {
-    "version" : 2,
-    "routes" :[
+    "rewrites": [
         {
-            "src" : "/images/(.*)", "dest" :"./public/static/Images/$1"
-        },
-        {
-            "src" :"/(.*)", "dest" : "./index.html"
+            "source": "/(.*)",
+            "destination": "/"
         }
     ]
 }
