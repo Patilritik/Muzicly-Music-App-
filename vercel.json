@@ -2,7 +2,7 @@
     "version" : 2,
     "routes" :[
         {
-            "src" : "/images/(.*)", "dest" :"./public/static/Images"
+            "src" : "/images/(.*)", "dest" :"./public/static/Images/$1"
         },
         {
             "src" :"/(.*)", "dest" : "./index.html"
