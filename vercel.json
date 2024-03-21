@@ -1,18 +1,11 @@
 {
-    "images": {
-      "sizes": [256, 640, 1080, 2048, 3840],
-      "remotePatterns": [
+    "version" : 2,
+    "routes" :[
         {
-          "protocol": "https",
-          "hostname": "example.com",
-          "port": "",
-          "pathname": "/account123/**"
+            "src" : "/images/(.*)", "dest" :"./public/static/Images"
+        },
+        {
+            "src" :"/(.*)", "dest" : "./index.html"
         }
-      ],
-      "minimumCacheTTL": 60,
-      "formats": ["image/jpeg"],
-      "dangerouslyAllowSVG": false,
-      "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
-      "contentDispositionType": "inline"
-    }
-  }
+    ]
+}
