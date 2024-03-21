@@ -10,7 +10,7 @@
         }
       ],
       "minimumCacheTTL": 60,
-      "formats": ["image/webp/jpg/jpeg/svg/png"],
+      "formats": ["image/webp"],
       "dangerouslyAllowSVG": false,
       "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
       "contentDispositionType": "inline"
