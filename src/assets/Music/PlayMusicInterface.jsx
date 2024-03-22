@@ -134,7 +134,7 @@ function PlayMusicInterface(props) {
 
                 <button onClick={() => setSidebar(!sideBar)} className={sideBar ? "fixed my-12 mx-2 " : " my-12 mx-2"} >
 
-                    <img src={sideBar ? '/src/assets/Images/back.png' : '/src/assets/Images/fast-forward-double-right-arrows-symbol.png'} className={sideBar ? 'w-auto h-10  max-w-full animate-arrowanimation' : " absolute right-0 w-auto h-10  max-w-full animate-arrowanimation"} />
+                    <img src={sideBar ? '/Images/back.png' : '/Images/fast-forward-double-right-arrows-symbol.png'} className={sideBar ? 'w-auto h-10  max-w-full animate-arrowanimation' : " absolute right-0 w-auto h-10  max-w-full animate-arrowanimation"} />
 
                 </button>
 
@@ -263,7 +263,7 @@ function PlayMusicInterface(props) {
 
                             {/* Start Over button */}
                             <button onClick={startOver}>
-                                <img src="/images/icons8-left-arrow-100.png" className='w-10 h-10  rounded-full hover:shadow-md hover:shadow-black drop-shadow-xl ' />
+                                <img src="/Images/icons8-left-arrow-100.png" className='w-10 h-10  rounded-full hover:shadow-md hover:shadow-black drop-shadow-xl ' />
 
                             </button>
 
@@ -277,7 +277,7 @@ function PlayMusicInterface(props) {
 
 
 
-                                <img src={toogleMusic ? '/src/assets/Images/pauseold.png' : '/src/assets/Images/playold.png'} className={toogleMusic ? 'rounded-full hover:shadow-md  hover:shadow-green-900  drop-shadow-xl' : 'rounded-full  hover:shadow-md hover:shadow-red-600 w-21 drop-shadow-xl'} />
+                                <img src={toogleMusic ? '/Images/pauseold.png' : '/Images/playold.png'} className={toogleMusic ? 'rounded-full hover:shadow-md  hover:shadow-green-900  drop-shadow-xl' : 'rounded-full  hover:shadow-md hover:shadow-red-600 w-21 drop-shadow-xl'} />
                                 <audio ref={audioRef} className="none " controls="" >
                                     <source src={props.audio} />
                                 </audio>
@@ -288,7 +288,7 @@ function PlayMusicInterface(props) {
 
                             {/* mute button  */}
                             <button>
-                                <img src={muteBtn ? "/src/assets/Images/mute.png " : "/src/assets/Images/volume.png"}
+                                <img src={muteBtn ? "/Images/mute.png " : "/Images/volume.png"}
                                     onClick={clickHander}
                                     className='w-10 h-10 rounded-full hover:shadow-md hover:shadow-black drop-shadow-sm ' />
                             </button>

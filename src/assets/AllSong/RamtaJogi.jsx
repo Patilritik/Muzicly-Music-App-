@@ -4,7 +4,7 @@ import PlayMusicInterface from '../Music/PlayMusicInterface'
 function RamtaJogi() {
   return (
     <div>
-      <PlayMusicInterface  Imgsrc="/src/assets/Images/Ramta jogi.jpg" name="Ramta Jogi" singer="Sukhwinder Singh" audio="/src/assets/Songs/Ramta Jogi Song From Taal Movie.mp3" time=""/>
+      <PlayMusicInterface  Imgsrc="/Images/Ramta jogi.jpg" name="Ramta Jogi" singer="Sukhwinder Singh" audio="/src/assets/Songs/Ramta Jogi Song From Taal Movie.mp3" time=""/>
     </div>
   )
 }
