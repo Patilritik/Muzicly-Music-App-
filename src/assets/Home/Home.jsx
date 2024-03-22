@@ -14,10 +14,10 @@ export default function Home(){
          <div className='flex flex-wrap justify-around my-20'>
             {/* <ArtistCard  name= "Arijit-Singh" image="/src/assets/Images/download.jpg"/> */}
             <ArtistCard  name= "Arijit-Singh" image='/Images/download.jpg'/>
-            {/* <ArtistCard  name= "Atif Aslam" image="/images/Atif.jpg"/>
-            <ArtistCard  name= "Jubin Nautiyal" image="/images/JUBIN.jpg"/>
-            <ArtistCard  name= "Udit Narayan" image="/images/udit.jpg"/>
-            <ArtistCard  name= "Sukhwinder Singh" image="/images/sukhwinder.jpg"/> */}
+            <ArtistCard  name= "Atif Aslam" image="/Images/Atif.jpg"/>
+            <ArtistCard  name= "Jubin Nautiyal" image="/Images/JUBIN.jpg"/>
+            <ArtistCard  name= "Udit Narayan" image="/Images/udit.jpg"/>
+            <ArtistCard  name= "Sukhwinder Singh" image="/Images/sukhwinder.jpg"/>
 
          </div>
         </>
