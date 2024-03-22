@@ -24,7 +24,7 @@ function MyRoutes() {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="" element={<Home />} />
 
                     {/* Singer section */}
                     <Route path='/Arijit-Singh' element={<Arijit />} />
