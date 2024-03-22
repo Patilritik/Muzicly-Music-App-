@@ -1,6 +1,5 @@
 
 import React from "react"
-import download  from '../../../public/images/download.jpg'
 
 import ArtistCard from "../Components/ArtistCard"
 import Header from "../Components/Header"
@@ -15,10 +14,10 @@ export default function Home(){
          <div className='flex flex-wrap justify-around my-20'>
             {/* <ArtistCard  name= "Arijit-Singh" image="/src/assets/Images/download.jpg"/> */}
             <ArtistCard  name= "Arijit-Singh" image='/public/Images/download.jpg'/>
-            <ArtistCard  name= "Atif Aslam" image="/images/Atif.jpg"/>
+            {/* <ArtistCard  name= "Atif Aslam" image="/images/Atif.jpg"/>
             <ArtistCard  name= "Jubin Nautiyal" image="/images/JUBIN.jpg"/>
             <ArtistCard  name= "Udit Narayan" image="/images/udit.jpg"/>
-            <ArtistCard  name= "Sukhwinder Singh" image="/images/sukhwinder.jpg"/>
+            <ArtistCard  name= "Sukhwinder Singh" image="/images/sukhwinder.jpg"/> */}
 
          </div>
         </>
