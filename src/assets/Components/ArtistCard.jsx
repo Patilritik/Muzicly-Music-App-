@@ -12,7 +12,7 @@ export default function ArtistCard(props) {
             <button onClick={handleClick}>
 
                 <div
-                    class='rounded-full my-10 relative overflow-hidden w-60 h-60  cursor-pointer text-2xl font-bold bg-arijit bg-top bg-cover' style={{ backgroundImage: `url(${props.image})` }}
+                    class='rounded-full my-10 relative overflow-hidden w-60 h-60  cursor-pointer text-2xl font-bold  bg-top bg-cover' style={{ backgroundImage: `url(${props.image})` }}
                 >
                     <div class="z-10 absolute w-full h-full peer"></div>
                     <div

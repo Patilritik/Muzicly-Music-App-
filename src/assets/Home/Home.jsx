@@ -12,11 +12,11 @@ export default function Home(){
         </h1>
          <div className='flex flex-wrap justify-around my-20'>
             {/* <ArtistCard  name= "Arijit-Singh" image="/src/assets/Images/download.jpg"/> */}
-            <ArtistCard  name= "Arijit-Singh" image="../../../public/Images/download.jpg"/>
-            <ArtistCard  name= "Atif Aslam" image="../../../public/Images/Atif.jpg"/>
-            <ArtistCard  name= "Jubin Nautiyal" image="../../../public/Images/JUBIN.jpg"/>
-            <ArtistCard  name= "Udit Narayan" image="../../../public/Images/udit.jpg"/>
-            <ArtistCard  name= "Sukhwinder Singh" image="../../../public/Images/sukhwinder.jpg"/>
+            <ArtistCard  name= "Arijit-Singh" image="/images/download.jpg"/>
+            <ArtistCard  name= "Atif Aslam" image="/images/Atif.jpg"/>
+            <ArtistCard  name= "Jubin Nautiyal" image="/images/JUBIN.jpg"/>
+            <ArtistCard  name= "Udit Narayan" image="/images/udit.jpg"/>
+            <ArtistCard  name= "Sukhwinder Singh" image="/images/sukhwinder.jpg"/>
 
          </div>
         </>
