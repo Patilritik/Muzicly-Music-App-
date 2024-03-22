@@ -263,7 +263,7 @@ function PlayMusicInterface(props) {
 
                             {/* Start Over button */}
                             <button onClick={startOver}>
-                                <img src="/src/assets/Images/icons8-left-arrow-100.png " className='w-10 h-10  rounded-full hover:shadow-md hover:shadow-black drop-shadow-xl ' />
+                                <img src="/images/icons8-left-arrow-100.png" className='w-10 h-10  rounded-full hover:shadow-md hover:shadow-black drop-shadow-xl ' />
 
                             </button>
 
