@@ -1,6 +1,6 @@
 
 import React from "react"
-import download  from '../../../public/images/download.jpg'
+import download  from '/images/download.jpg'
 
 import ArtistCard from "../Components/ArtistCard"
 import Header from "../Components/Header"
