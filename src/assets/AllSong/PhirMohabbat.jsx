@@ -4,7 +4,7 @@ import PlayMusicInterface from '../Music/PlayMusicInterface'
 function PhirMohabbat() {
   return (
     <div>
-        <PlayMusicInterface Imgsrc="/Images/Phir Mohbbat.jpg" name="Phir Mohabbat" singer="Arijit Singh" audio="/src/assets/Songs/Phir Mohabbat - (Raag.Fm).mp3" time="5:29"/>
+        <PlayMusicInterface Imgsrc="/Images/Phir Mohbbat.jpg" name="Phir Mohabbat" singer="Arijit Singh" audio="/Songs/Phir Mohabbat - (Raag.Fm).mp3" time="5:29"/>
     </div>
   )
 }
